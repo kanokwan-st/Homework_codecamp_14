@@ -1,0 +1,1 @@
+const friends = new Array('A', 'B', 'C', 'D', 'E');

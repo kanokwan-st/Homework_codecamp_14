@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    text-align: center;
+    padding: 2px 16px;
+}
+.card {
+    display: inline-block;
+    box-shadow: 4px 6px 3px silver;
+    width: 250px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: rgb(121, 65, 174);
+    color: aliceblue;
+}
+.card img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+}
+.card h4 {
+    margin-bottom: 12px;
+    margin-top: 15px;
+}
+.card p {
+    margin-top: 12px;
+    margin-bottom: 20px;
+}

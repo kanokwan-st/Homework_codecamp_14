@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table,td,th {
+    border: 2px dashed #C0392B;
+    padding: 10px;
+    text-align: left;
+}
+
+table {
+    margin: 10px auto;
+    border-collapse: collapse;
+    color: #C0392B;
+    width: 80%;
+}
+
+a {
+    color: #C0392B;
+}
+

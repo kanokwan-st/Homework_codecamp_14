@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #603F83FF;
+        }
+        .container {
+            width: 60%;
+            height: 60%;
+            margin: 20px auto;
+            padding: 10px;
+            /* border: 1px solid red; */
+            border-radius: 10px;
+            background-color: #2BAE66FF;
+            color: #FCF6F5FF;
+        }
+        .box {
+            /* border: 1px solid red; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .profile-pic img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        .aboutMe {
+            margin: 20px 10px;
+            /* border: 1px solid black; */
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+            align-items: center;
+        }
+        .aboutMe p {
+            margin: 10px 0;
+        }
+        .aboutMe .pic {
+            display: flex;
+        }
+        .pic img {
+            width: 110px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin: auto 5px;
+        }
+        .link {
+            margin: 10px;
+        }
+        ul {
+            display: flex;
+            /* border: 1px solid red; */
+            list-style-type: none;
+            margin-top: 5px;
+        }
+        li a {
+            display: block;
+            /* border: 1px solid; */
+            border-radius: 10px;
+            padding: 10px;
+            text-decoration: none;
+            margin: 0 2px;
+        }
+        .index {
+            background-color: #603F83FF;
+            color: #C7D3D4FF;
+        }
+        .friends {
+            background-color: #0063B2FF;
+            color: #9CC3D5FF;
+        }
+        li a:hover {
+            background-color: #000000FF;
+            color: #FFFFFFFF;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="profile-pic">
+                <img src="profile-icon.jpg" alt="avatar">
+            </div>
+            <div class="aboutMe">
+                <p>My name is Kanokwan Sae-Tae. My nickname is Ling. </p>
+                <p>I like watching anime and reading books</p>
+                <div class="pic">
+                    <img src="watchingAnime.jpg" alt="watching anime">
+                    <img src="readingBook.jpg" alt="reading books">
+                </div>
+            </div>
+        </div>
+        <div class="link">
+            <ul>
+                <li><a class="index" href="index.html">Index</a></li>
+                <li><a class="friends" href="friends.html">Friends</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    width: 600px;
+    height: 600px;
+    margin: 100px auto;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    border: dotted 2px red;
+    width: 200px;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    border: solid 2px black;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.amount label{
+    width: 100px;
+}
+
+input, select {
+    height: 30px;
+}
+
+button {
+    height: 35px;
+    width: 90px;
+    background-color: #F76031;
+    margin: 10px 50px;
+    color: white;
+    border-radius: 5px;
+}
+
+.orange {
+    color: #F76031;
+}
+
+
+

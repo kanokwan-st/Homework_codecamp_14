@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #603F83FF;
+        }
+        .container {
+            width: 50%;
+            height: 50%;
+            padding: 20px;
+            margin: 20px auto;
+            border: 1px solid black;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #C7D3D4FF;
+            color: #603F83FF;
+        }
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+        .motto {
+            border: 1px solid black;
+            border-radius: 10px;
+            text-align: center;
+            padding: 10px;
+        }
+        hr {
+            margin: 5px;
+        }
+        .link {
+            margin: 10px;
+        }
+        ul {
+            display: flex;
+            /* border: 1px solid red; */
+            list-style-type: none;
+            margin-top: 5px;
+        }
+        li a {
+            display: block;
+            /* border: 1px solid; */
+            border-radius: 10px;
+            padding: 10px;
+            text-decoration: none;
+            margin: 0 2px;
+        }
+        .profile {
+            background-color: #2BAE66FF;
+            color: #FCF6F5FF;
+        }
+        .friends {
+            background-color: #0063B2FF;
+            color: #9CC3D5FF;
+        }
+        li a:hover {
+            background-color: #000000FF;
+            color: #FFFFFFFF;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="about">
+            <img src="profile-icon.jpg" alt="me">
+            <div class="motto">
+                <h3>My motto...</h3> <hr>
+                <p>Always be myself</p>
+            </div>
+        </div>
+        <div class="link">
+            <ul>
+                <li><a class="profile" href="profile.html">Profile</a></li>
+                <li><a class="friends" href="friends.html">Friends</a></li>
+            </ul>
+            
+            
+        </div>
+    </div>
+</body>
+</html>
